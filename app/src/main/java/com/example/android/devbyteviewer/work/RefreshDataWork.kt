@@ -41,4 +41,8 @@ import retrofit2.HttpException
                 Result.retry()
             }
         }
+
+        companion object {
+            const val WORK_NAME = "RefreshDataWorker"
+        }
     }
